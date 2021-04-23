@@ -19,11 +19,25 @@ public class goldDivider {
       internalPercision = (int) percision;
       outputPercision = (int) finalPercision;
 
+      numerator = roundDouble(numerator, internalPercision);
+      denominator = roundDouble(denominator, internalPercision);
+
+      quotient = numerator / denominator;
+
       System.out.printf("N=%f,D=%f,Init=%f,Iterations=%d,Prec=%f,FinalPerc=%f",numerator, denominator,initialValue,iterations,percision,finalPercision);
   }
-}
 
-private static double roundDouble(double toRound, int decimalPlaces){
-  double scale = Math.pow(10, decimalPlaces);
-  return Math.round(toRound * scale) / scale;
+  private static double roundDouble(double toRound, int binaryPlaces){
+    double scale = Math.pow(2, binaryPlaces);
+    return Math.round(toRound * scale) / scale;
+  }
+  private static double floorDouble(double toFloor, int binaryPlaces){
+    double scale = Math.pow(2, binaryPlaces);
+    return Math.floor(toFloor * scale) / scale;
+  }
+  private static double ceilingDouble(double toCeiling, int binaryPlaces) {
+    double scale = Math.pow(2, binaryPlaces);
+    return Math.ceil(toCeiling * scale) / scale;
+  }
+
 }
