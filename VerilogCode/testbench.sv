@@ -23,23 +23,23 @@ module testBench();
 
 /*
     Tests for multiplier
-    A = $random; B = $random; #100;
-    A = $random; B = $random; #100;
-    A = $random; B = $random; #100;
-    A = $random; B = $random; #100;
-    A = $random; B = $random; #100
+    A = $random; B = $random; #20;
+    A = $random; B = $random; #20;
+    A = $random; B = $random; #20;
+    A = $random; B = $random; #20;
+    A = $random; B = $random; #20;
 */
 
 /*
     Test Set for mux4
     A = $random; B = $random; C = $random; D = $random;
-    S[1] = 0; S[0] = 0; #100;
+    S[1] = 0; S[0] = 0; #20;
     A = $random; B = $random; C = $random; D = $random;
-    S[1] = 0; S[0] = 1; #100;
+    S[1] = 0; S[0] = 1; #20;
     A = $random; B = $random; C = $random; D = $random;
-    S[1] = 1; S[0] = 0; #100;
+    S[1] = 1; S[0] = 0; #20;
     A = $random; B = $random; C = $random; D = $random;
-    S[1] = 1; S[0] = 1; #100;
+    S[1] = 1; S[0] = 1; #20;
 */
 
 /*
