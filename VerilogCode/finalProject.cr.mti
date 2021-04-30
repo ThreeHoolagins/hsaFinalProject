@@ -1,34 +1,8 @@
-{C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/spares.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/spares.sv}
-Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module mux4
--- Compiling module mux2
--- Compiling module reg16
-
-Top level modules:
-	mux4
-	mux2
-	reg16
-
-} {} {}} {C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/multiplier.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/multiplier.sv}
+{C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/multiplier.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/multiplier.sv}
 Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
 -- Compiling module multiplier
--- Compiling module half_adder
--- Compiling module full_adder
 
 Top level modules:
 	multiplier
-
-} {} {}} {C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/testbench.sv} {1 {vlog -work work -vopt -sv -stats=none {C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/testbench.sv}
-Model Technology ModelSim SE-64 vlog 10.7f Compiler 2020.03 Mar 24 2020
--- Compiling module mux4
--- Compiling module mux2
--- Compiling module reg16
--- Compiling module testBench
-
-Top level modules:
-	mux4
-	mux2
-	reg16
-	testBench
 
 } {} {}}

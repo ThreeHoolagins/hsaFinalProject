@@ -9,181 +9,277 @@ z2
 cModel Technology
 Z0 dC:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode
 T_opt
-!s110 1619628249
-VSADgj8mhA7S905OczYm]o0
+!s110 1619815690
+Vz^_HEPf@@>oz2a1B@gjDM0
 04 9 4 work testBench fast 0
-=1-d45d6450e3c0-608990d9-16-3190
+=1-d45d6450e3c0-608c6d0a-e6-3e2c
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7f;67
-R0
-vfull_adder
+vdivider
 Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-Z3 !s110 1619628338
+Z3 !s110 1619815688
 !i10b 1
-!s100 6J4c8S]L9j=MfgROl3Hz42
-IMJMm@cLcLjIAe_WD]9Vn23
+!s100 elV^EKliIS_kL?<lM6kOU3
+I:=LCR>d`AfMWkJfaAPn^T3
 Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 !s105 multiplier_sv_unit
+!s105 divider_sv_unit
 S1
 R0
-Z6 w1619553117
-Z7 8C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/multiplier.sv
-Z8 FC:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/multiplier.sv
-L0 593
-Z9 OL;L;10.7f;67
+w1619813709
+8divider.sv
+Fdivider.sv
+L0 2
+Z5 OL;L;10.7f;67
 r1
 !s85 0
 31
-Z10 !s108 1619628338.000000
-Z11 !s107 C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/multiplier.sv|
-Z12 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/multiplier.sv|
+Z6 !s108 1619815688.000000
+Z7 !s107 spares.sv|divider.sv|testbench.sv|multiplier.sv|
+Z8 !s90 -reportprogress|300|multiplier.sv|testbench.sv|divider.sv|spares.sv|
 !i113 0
-Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfull_adder
+R2
+R3
+!i10b 1
+!s100 _gfCl6DOTCbSb>W:<[LY;2
+IcmijK:8Uo;4]P?_VDN@Y`2
+R4
+Z10 !s105 spares_sv_unit
+S1
+R0
+Z11 w1619815682
+Z12 8spares.sv
+Z13 Fspares.sv
+L0 48
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
 R1
 vhalf_adder
 R2
 R3
 !i10b 1
-!s100 OEn0fg=BBmWB0W0zbazJk2
-Iz[:K9SGgP8z8e2732_g:I0
+!s100 lkfFQ;oP7MZWg7[]G9VC;2
+IV;eC47FgD5bkKOK7[@Wm10
 R4
-R5
+R10
 S1
 R0
-R6
-R7
-R8
-L0 582
-R9
+R11
+R12
+R13
+L0 37
+R5
 r1
 !s85 0
 31
-R10
-R11
-R12
+R6
+R7
+R8
 !i113 0
-R13
+R9
 R1
 vmultiplier
 R2
 R3
 !i10b 1
 !s100 <R^iNkC2fKfZj18e^l]Md1
-IVi`19;UCi`T0?_91CkZo70
+IT6okbQQRjU1T3]^NOOEZ^0
 R4
-R5
+!s105 multiplier_sv_unit
 S1
 R0
-R6
-R7
-R8
+w1619670609
+8multiplier.sv
+Fmultiplier.sv
 L0 1
-R9
+R5
 r1
 !s85 0
 31
-R10
-R11
-R12
+R6
+R7
+R8
 !i113 0
-R13
+R9
 R1
 vmux2
 R2
 R3
 !i10b 1
 !s100 3m69?H1T;cR<^cn@T;7h12
-I]bOmXg@Zg_M7j^[RUhj_m3
+Ikfima`?6ffQYPP]?X<mOJ3
 R4
-Z14 !s105 spares_sv_unit
+R10
 S1
 R0
-Z15 w1619628186
-Z16 8C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/spares.sv
-Z17 FC:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/spares.sv
+R11
+R12
+R13
 L0 10
-R9
+R5
 r1
 !s85 0
 31
-R10
-!s107 C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/spares.sv|
-Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/spares.sv|
+R6
+R7
+R8
 !i113 0
-R13
+R9
 R1
 vmux4
 R2
 R3
 !i10b 1
 !s100 acdEQ5]AClf@;1E:PGUeY1
-IDakTkCNBn`FTNSYdNTEe:0
+Im3kDQmVGBNRliecYKF1j@0
 R4
-R14
+R10
 S1
 R0
-R15
-R16
-R17
+R11
+R12
+R13
 L0 2
-R9
+R5
 r1
 !s85 0
 31
-R10
-Z19 !s107 C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/spares.sv|
-R18
+R6
+R7
+R8
 !i113 0
-R13
+R9
 R1
+vonesComp
+R2
+R3
+!i10b 1
+!s100 Zh<dVTUbU=DibM><67hH80
+IUEbM4?e31<OR>b:NmG3dA2
+R4
+R10
+S1
+R0
+R11
+R12
+R13
+L0 30
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nones@comp
 vreg16
 R2
 R3
 !i10b 1
 !s100 >SgnSJNiAAlh]BN9FfYQc2
-I6lZkA?jD8SW>V_BDG6hKg3
+I4cVmCiBY^L5aBh_nkIFaI1
 R4
-R14
+R10
 S1
 R0
-R15
-R16
-R17
+R11
+R12
+R13
 L0 18
-R9
+R5
 r1
 !s85 0
 31
-R10
-R19
-R18
+R6
+R7
+R8
 !i113 0
+R9
+R1
+vsixteenbitrca
+R2
+R3
+!i10b 1
+!s100 ?^SlPAY9<NN6z?=OED3Wz3
+IHY@PMf6O?5GVEZ?_TL:@L2
+R4
+R10
+S1
+R0
+R11
+R12
 R13
+L0 78
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
 R1
 vtestBench
 R2
 R3
 !i10b 1
-!s100 ?VQcbCaAndE=16LOJa4JP1
-IU]4nl3oz;RcLBT6MN06CX2
+!s100 :W<LUXBT78aj5;Sf8<7ee3
+INU8nL;IKFNEP>;lA4jNIe0
 R4
 !s105 testbench_sv_unit
 S1
 R0
-w1619628331
-8C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/testbench.sv
-FC:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/testbench.sv
-L0 3
-R9
+w1619813652
+8testbench.sv
+Ftestbench.sv
+L0 2
+R5
 r1
 !s85 0
 31
-R10
-!s107 spares.sv|C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/testbench.sv|
-!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode/testbench.sv|
+R6
+R7
+R8
 !i113 0
-R13
+R9
 R1
 ntest@bench
+vxor16
+R2
+R3
+!i10b 1
+!s100 g548L6QIS2deM@7N52bl:3
+IQhMYd0lLOCAk[NHa]oLMg1
+R4
+R10
+S1
+R0
+R11
+R12
+R13
+L0 60
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

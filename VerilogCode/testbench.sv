@@ -1,17 +1,23 @@
 `timescale 1ns / 1ps
-`include "spares.sv"
 module testBench();
 
-  logic [15:0] A, B, C, D;
+  logic [15:0] A, B, C, D, IA0, IA1, IA2, IA3, Q, R;
   logic [1:0] S;
   logic clk, reset, regAPush;
   logic [31:0] outFromMult, outFromMux, outFromReg;
 
-
+  divider dut(A,B,IA0,IA1,IA2,IA3,clk,Q,R);
   //multiplier dut(outFromMult,A,B);
   //mux4 dut(A,B,C,D,S,outFromMux);
   //reg16 dut(A,clk,reset,regAPush,outFromReg);
 
+  // Define IA
+  initial begin
+    IA0 = 16'b1110011001100110; // .9
+    IA1 = 16'b1011101011100001; // .73
+    IA2 = 16'b1001111010111000; // .62
+    IA3 = 16'b1000101000111101; // .54
+  end
 
   // 2 ns clock
   initial begin
@@ -20,7 +26,12 @@ module testBench();
   end
 
   initial begin
-
+    //Tests for divider
+    A = $random; B = $random; #20;
+    A = $random; B = $random; #20;
+    A = $random; B = $random; #20;
+    A = $random; B = $random; #20;
+    A = $random; B = $random; #20;
 /*
     Tests for multiplier
     A = $random; B = $random; #20;

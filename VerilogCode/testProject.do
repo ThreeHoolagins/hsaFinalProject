@@ -27,7 +27,7 @@ if [file exists work] {
 vlib work
 
 # compile source files
-vlog multiplier.sv testbench.sv
+vlog multiplier.sv testbench.sv divider.sv spares.sv
 
 # start and run simulation
 vsim -voptargs=+acc work.testBench
