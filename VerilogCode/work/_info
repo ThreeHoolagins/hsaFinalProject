@@ -9,25 +9,25 @@ z2
 cModel Technology
 Z0 dC:/Users/Caleb/Documents/Schoolwork/High Speed Architecture/hsaFinalProject/VerilogCode
 T_opt
-!s110 1619815690
-Vz^_HEPf@@>oz2a1B@gjDM0
+!s110 1619832681
+Vb7=TLa;U0G0E@cCdG@<D71
 04 9 4 work testBench fast 0
-=1-d45d6450e3c0-608c6d0a-e6-3e2c
+=1-d45d6450e3c0-608caf69-13-4e98
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;10.7f;67
 vdivider
 Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
-Z3 !s110 1619815688
+Z3 !s110 1619832679
 !i10b 1
-!s100 elV^EKliIS_kL?<lM6kOU3
-I:=LCR>d`AfMWkJfaAPn^T3
+!s100 c289WEFU8?4`CWf>Y[dI11
+Ik:BbKXC;CdTUKT;OIk7>53
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 !s105 divider_sv_unit
 S1
 R0
-w1619813709
+w1619832672
 8divider.sv
 Fdivider.sv
 L0 2
@@ -35,7 +35,7 @@ Z5 OL;L;10.7f;67
 r1
 !s85 0
 31
-Z6 !s108 1619815688.000000
+Z6 !s108 1619832679.000000
 Z7 !s107 spares.sv|divider.sv|testbench.sv|multiplier.sv|
 Z8 !s90 -reportprogress|300|multiplier.sv|testbench.sv|divider.sv|spares.sv|
 !i113 0
@@ -45,16 +45,16 @@ vfull_adder
 R2
 R3
 !i10b 1
-!s100 _gfCl6DOTCbSb>W:<[LY;2
-IcmijK:8Uo;4]P?_VDN@Y`2
+!s100 G;zf34^W=3_S[9m@<XYWd0
+I^Wn]fYZ9G[O7aQ_c0KNH@2
 R4
 Z10 !s105 spares_sv_unit
 S1
 R0
-Z11 w1619815682
+Z11 w1619832532
 Z12 8spares.sv
 Z13 Fspares.sv
-L0 48
+L0 50
 R5
 r1
 !s85 0
@@ -69,8 +69,8 @@ vhalf_adder
 R2
 R3
 !i10b 1
-!s100 lkfFQ;oP7MZWg7[]G9VC;2
-IV;eC47FgD5bkKOK7[@Wm10
+!s100 [l<AIQhmSA<BhJ2Lc93M_1
+Io6@bQbRFJLazOWjSdJg0Z3
 R4
 R10
 S1
@@ -78,7 +78,7 @@ R0
 R11
 R12
 R13
-L0 37
+L0 39
 R5
 r1
 !s85 0
@@ -165,8 +165,8 @@ vonesComp
 R2
 R3
 !i10b 1
-!s100 Zh<dVTUbU=DibM><67hH80
-IUEbM4?e31<OR>b:NmG3dA2
+!s100 mePg3idbg2VgkLQDQmz7K1
+InX@REN<4oQ=[>hJMRO5`>3
 R4
 R10
 S1
@@ -214,8 +214,8 @@ vsixteenbitrca
 R2
 R3
 !i10b 1
-!s100 ?^SlPAY9<NN6z?=OED3Wz3
-IHY@PMf6O?5GVEZ?_TL:@L2
+!s100 eJgI3?ALHOjMcm@NY`ET]0
+IciNhLS7MmmDiKT21bmEfn1
 R4
 R10
 S1
@@ -223,7 +223,7 @@ R0
 R11
 R12
 R13
-L0 78
+L0 80
 R5
 r1
 !s85 0
@@ -238,13 +238,13 @@ vtestBench
 R2
 R3
 !i10b 1
-!s100 :W<LUXBT78aj5;Sf8<7ee3
-INU8nL;IKFNEP>;lA4jNIe0
+!s100 XB0m;fN9PWBn=zdWak8271
+I=aS_?ZH`9QfOW[E1=5LKB2
 R4
 !s105 testbench_sv_unit
 S1
 R0
-w1619813652
+w1619832511
 8testbench.sv
 Ftestbench.sv
 L0 2
@@ -263,8 +263,8 @@ vxor16
 R2
 R3
 !i10b 1
-!s100 g548L6QIS2deM@7N52bl:3
-IQhMYd0lLOCAk[NHa]oLMg1
+!s100 X>2ee0igBP?E]E5E]<^Pf1
+I>=8>m`AFZSEBBBFkh<Mim0
 R4
 R10
 S1
@@ -272,7 +272,7 @@ R0
 R11
 R12
 R13
-L0 60
+L0 62
 R5
 r1
 !s85 0

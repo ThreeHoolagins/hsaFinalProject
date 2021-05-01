@@ -1,23 +1,27 @@
 
 module divider (input logic [15:0] N,D,IA0,IA1,IA2,IA3,
-                input logic clk,
+                input logic clk, reset, kSave, nSave, dSave, kNextSel,
+                input logic [1:0] muxSelB,
                 output logic [15:0] quotient, remainder);
   // take in N, D, clk, IA0,IA1,IA2,IA3, and output remainder and quotient
   // establish our internal logic
   logic [31:0] multOut;
   logic [15:0] kNext, IA, kn, multRight, nNext, dNext, onesOut;
   logic regA, regB, regC, muxSelA;
-  logic [1:0] muxSelB;
+  //logic [1:0] muxSelB;
 
   mux4 iaMux(IA0, IA1, IA2, IA3, D[14:13], IA);
-  mux2 knextMux(kNext, IA, 1'b1, kn);
-  mux4 NorDSel(N, D, nNext, dNext, 2'b00, multRight);
+  mux2 knextMux(kNext, IA, kNextSel, kn);
+  mux4 NorDSel(N, D, nNext, dNext, muxSelB, multRight);
 
   multiplier mult(multOut, kn, multRight);
 
-  onesComp onesConv(multOut[15:0],onesOut);
+  reg16 nNextReg(multOut[15:0], clk, reset, nSave, nNext);
+  reg16 outputReg(nNext, clk, reset, nSave, quotient);
+  reg16 dNextReg(multOut[15:0], clk, reset, dSave, dNext);
 
-  reg16 reg1(onesOut, clk, 1'b0, 1'b1, quotient);
+  onesComp onesConv(multOut[15:0],onesOut);
+  reg16 kNextReg(onesOut, clk, reset, kSave, kNext);
 
   /*
 

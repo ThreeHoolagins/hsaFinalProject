@@ -29,7 +29,9 @@ endmodule
 
 module onesComp(input logic [15:0] A, output logic [15:0] out);
     //assign A = A^16'b111111111111;
+    logic Cin, Cout;
     assign out = ~A;
+    //sixteenbitrca adder(17'b10000000000000000, '{1,A}, Cin, Cout, out);
 
 endmodule
 
@@ -75,8 +77,8 @@ module xor16(input logic [15:0] A, B, output logic [15:0] result);
   assign result[14] = A[14] ^ B[14];
   assign result[15] = A[15] ^ B[15];
 endmodule
-module sixteenbitrca (input logic [15:0] A, B, input logic Cin, output logic Cout, output logic [15:0] sum);
-  logic c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15;
+module sixteenbitrca (input logic [16:0] A, B, input logic Cin, output logic Cout, output logic [15:0] sum);
+  logic c1,c2,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15, c16;
 
   full_adder add1(c1, sum[0],A[0],B[0],Cin);
   full_adder add2(c2, sum[1],A[1],B[1],c1);
@@ -93,6 +95,7 @@ module sixteenbitrca (input logic [15:0] A, B, input logic Cin, output logic Cou
   full_adder add13(c13, sum[12],A[12],B[12],c12);
   full_adder add14(c14, sum[13],A[13],B[13],c13);
   full_adder add15(c15, sum[14],A[14],B[14],c14);
-  full_adder add16(Cout, sum[15],A[15],B[15],c15);
+  full_adder add16(c16, sum[15],A[15],B[15],c15);
+  full_adder add17(Cout, sum[16],A[16],B[16],c16);
 
 endmodule // sixteenbitrca
